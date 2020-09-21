@@ -1,0 +1,39 @@
+#card > div {
+    display: grid;
+    background: rgb(131, 105, 105);
+    justify-self: center;
+}
+
+#card > div:nth-child(odd) {
+    background: green;
+    justify-self: center;
+}
+
+#card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(200px, auto);
+    align-items: center;
+    /* grid-gap: 20px; */
+
+}
+
+
+.cartoon-image {
+    /* justify-self: center; */
+    width: 300px;
+    height:200px;
+}
+
+
+.cartoon {
+    text-align: center;
+}
+h1 {
+    display: block;
+    text-align: center;
+}
+
+#addCard {
+    text-align: center;
+}
